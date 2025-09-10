@@ -70,7 +70,7 @@ This project demonstrates **data cleaning, analysis, visualization, and SQL repo
 | **Fraud vs Legit Transactions** | Fraudulent: 66 / Legit: 2067 | Dataset highly imbalanced (~3% fraud cases) |
 | **Fraud by Loyalty Tier** | Bronze > Silver > Gold | Lower-tier customers more prone to fraud |
 | **Customer Age vs Purchase Amount** | Fraud mostly 25–60 age group | Middle-aged customers are more targeted; older (60+) and younger (<25) less affected |
-| **Fraud by Payment Method (SQL)** | Other: 3.77%, Debit Card: 3.26%, Gift Card: 3.11%, Mobile Payment: 3.00%, Credit Card: 2.85% | Highest fraud risk in Other/Debit/Gift Cards; focus on verification for these methods |
+| **Fraud by Payment Method (SQL)** |Highest fraud risk in Mobile/Debit/Gift Cards; focus on verification for these methods |
 | **Average Spend by Loyalty Tier (SQL)** | Bronze: 175.16, Silver: 174.96, Gold: 173.11, VIP: 174.47, Platinum: 170.79, Other: 181.43 | Spend is consistent across tiers; fraud is not solely spend-driven |
 | **Age Group Fraud Patterns (SQL)** | 41–60: 32, 25–40: 18, Under 25: 9, 60+: 7 | Fraud concentrated in middle-aged customers (41–60) |
 | **Top 3 Stores by Fraud % (SQL)** | CONCESSION-SINGAPORE: 4.66%, POPUP-MILAN: 4.52%, FLAGSHIP-PARIS: 4.27% | These stores have the highest fraud %; monitoring and stricter checks recommended |
